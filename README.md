@@ -5,7 +5,7 @@ This is a Capacitor plugin for printing the webview. It supports the Web, iOS an
 ## Install
 
 ```bash
-npm install @5uper/capacitor-webview-print
+npm install capacitor-webview-print
 npx cap sync
 ```
 
