@@ -1,6 +1,6 @@
 {
   "name": "capacitor-webview-print",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "This is a Capacitor plugin for printing the webview. It supports the Web, iOS and Android Platform.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -43,6 +43,8 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
     "changeset": "changeset",
+    "changeset:add": "changeset add",
+    "changeset:version": "changeset version",
     "release": "npm run build && changeset publish"
   },
   "devDependencies": {
