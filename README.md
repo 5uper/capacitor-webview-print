@@ -68,7 +68,7 @@ Trigger a webview print event
 | ------------- | ----------------------------------------------------- | ----------------- |
 | **`options`** | <code><a href="#printoptions">PrintOptions</a></code> | The print options |
 
-**Since:** 1.0.0
+**Since:** 6.0.0
 
 --------------------
 
@@ -80,6 +80,6 @@ Trigger a webview print event
 
 | Prop       | Type                | Description                                                    | Since |
 | ---------- | ------------------- | -------------------------------------------------------------- | ----- |
-| **`name`** | <code>string</code> | Name of the file to be printed. This is an required attribute. | 1.0.0 |
+| **`name`** | <code>string</code> | Name of the file to be printed. This is an required attribute. | 6.0.0 |
 
 </docgen-api>

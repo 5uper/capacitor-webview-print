@@ -1,7 +1,7 @@
 {
   "name": "capacitor-webview-print",
-  "version": "0.0.0",
-  "description": "print call in webview of capacitor",
+  "version": "6.0.0",
+  "description": "This is a Capacitor plugin for printing the webview. It supports the Web, iOS and Android Platform.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
