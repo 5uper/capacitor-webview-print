@@ -1,10 +1,14 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { WebviewPrintPlugin } from './definitions';
+import type { PrintOptions, WebviewPrintPlugin } from './definitions';
 
 export class WebviewPrintWeb extends WebPlugin implements WebviewPrintPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async print(options: PrintOptions): Promise<void> {
+    const documentTitleTemp = document.title;
+    document.title = options.name;
+
+    window.onafterprint = () => (document.title = documentTitleTemp);
+
+    return window.print();
   }
 }
