@@ -11,15 +11,16 @@ npx cap sync
 
 ## Maintainers
 
-| Maintainer    | GitHub                              |
-| ------------- | ----------------------------------- |
+| Maintainer     | GitHub                            |
+| -------------- | --------------------------------- |
 | `Yasin Şimşek` | [5uper](https://github.com/5uper) |
 
 ## Versions
 
-| Plugin | Capacitor |
-| ------ | ------- |
-| `6.x.x`| `6.x.x` |
+| Plugin  | Capacitor |
+| ------- | --------- |
+| `7.x.x` | `7.x.x`   |
+| `6.x.x` | `6.x.x`   |
 
 ## Configuration
 
@@ -41,8 +42,6 @@ public async printWebview(fileName: string): Promise<void> {
 - Web
 - iOS
 - Android
-
-
 
 ## API
 
