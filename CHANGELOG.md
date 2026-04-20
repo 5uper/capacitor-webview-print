@@ -1,5 +1,11 @@
 # capacitor-webview-print
 
+## 8.0.0
+
+### Major Changes
+
+- Support for capacitor 8
+
 ## 7.0.0
 
 ### Major Changes

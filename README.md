@@ -19,6 +19,7 @@ npx cap sync
 
 | Plugin  | Capacitor |
 | ------- | --------- |
+| `8.x.x` | `8.x.x`   |
 | `7.x.x` | `7.x.x`   |
 | `6.x.x` | `6.x.x`   |
 
